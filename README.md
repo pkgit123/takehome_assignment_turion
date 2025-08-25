@@ -11,10 +11,13 @@ This project implements a comprehensive data pipeline for detecting DDoS attacks
 - **Consumer**: Real-time DDoS detection with multi-layered analysis
 - **Dashboard**: Streamlit-based real-time visualization (planned)
 
-### **Batch Processing**
-- **Jupyter Notebook**: Historical analysis and visualization
-- **Data Quality Assessment**: Handling missing values, malformed data
-- **Attack Pattern Analysis**: Statistical analysis of attack types
+### **Batch Processing** *(Planning & Architecture Phase)*
+- **Status**: Currently in planning and architecture phase
+- **Planned Components**:
+  - Jupyter Notebook: Historical analysis and visualization
+  - Data Quality Assessment: Handling missing values, malformed data
+  - Attack Pattern Analysis: Statistical analysis of attack types
+- **Documentation**: See `analysis_batch/` folder for planning documents
 
 ## 📁 Project Structure
 
@@ -26,7 +29,8 @@ turion_takehome_v2/
 ├── instructions/
 │   └── turion-data-engineer-takehome.md  # Assignment requirements
 ├── analysis_batch/
-│   └── batch_analysis_approach.md   # Batch processing strategy
+│   ├── batch_analysis_approach.md   # Batch processing strategy
+│   └── batch_analysis_ideas.md      # Planning and architecture ideas
 ├── analysis_stream/
 │   ├── docker-compose.yml           # Redis infrastructure
 │   ├── stream_producer.py           # Data ingestion
@@ -198,6 +202,9 @@ python stream_consumer.py --timeout 1800  # 30 minutes
 - ✅ **Real-time Consumer**: Multi-layered DDoS detection
 - ✅ **Test Subset Creation**: Manageable datasets for demonstration
 - ✅ **Comprehensive Documentation**: Setup, testing, and strategy guides
+
+### **In Progress**
+- 🔄 **Batch Processing**: Planning and architecture phase (see `analysis_batch/` folder)
 
 ### **Technical Highlights**
 - **Multi-layered detection algorithms**
