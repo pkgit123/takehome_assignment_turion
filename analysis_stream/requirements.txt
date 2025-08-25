@@ -1,0 +1,26 @@
+# Redis client for Python
+redis==5.0.1
+
+# Streamlit for real-time dashboard
+streamlit==1.28.1
+
+# Data processing
+pandas==2.1.3
+numpy==1.24.3
+
+# Real-time data handling
+pydantic==2.5.0
+
+# Visualization
+plotly==5.17.0
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Utilities
+python-dotenv==1.0.0
+click==8.1.7
+
+# Optional: For advanced streaming features
+# kafka-python==2.0.2
+# apache-beam==2.50.0
+
