@@ -1,0 +1,5 @@
+# Large dataset files
+dataset/network_traffic.csv
+
+# Python
+__pycache__/
